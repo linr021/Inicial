@@ -30,6 +30,11 @@ public class OperacionesBasicas {
 		case '/':
 			 resultado=operando1/operando2;
 			 break;
+			 
+		case '%':
+			 resultado=operando1%operando2;
+			 break;
+			 
 		default:
 			break; 
 		}
